@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\clases\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:clases\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\db\u0027s\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:db\u0027s\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\DB\u0027s\\DBcontext.cs",
+              "RelativeDocumentMoniker": "DB\u0027s\\DBcontext.cs",
+              "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\DB\u0027s\\DBcontext.cs",
+              "RelativeToolTip": "DB\u0027s\\DBcontext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:10:53.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\utilizador.cs",
+              "RelativeDocumentMoniker": "CLASES\\utilizador.cs",
+              "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\utilizador.cs",
+              "RelativeToolTip": "CLASES\\utilizador.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:44:45.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGereUtilizadores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\frmGereUtilizadores.cs",
+              "RelativeDocumentMoniker": "frmGereUtilizadores.cs",
+              "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\frmGereUtilizadores.cs [Design]",
+              "RelativeToolTip": "frmGereUtilizadores.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:29:38.345Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
