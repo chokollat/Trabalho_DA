@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\clases\\programador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:clases\\programador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\clases\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:clases\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\controller\\utcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:controller\\utcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|c:\\users\\luisp\\source\\repos\\trabalho_des_aplicativos\\db\u0027s\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\db\u0027s\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:db\u0027s\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40078359-763C-472D-9D7E-8C252267F6FC}|iTasks.csproj|solutionrelative:view\\frmgereutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Programador.cs",
-              "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\Programador.cs",
-              "RelativeDocumentMoniker": "CLASES\\Programador.cs",
-              "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\Programador.cs",
-              "RelativeToolTip": "CLASES\\Programador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\utilizador.cs",
+              "RelativeDocumentMoniker": "CLASES\\utilizador.cs",
+              "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\CLASES\\utilizador.cs",
+              "RelativeToolTip": "CLASES\\utilizador.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T10:30:46.413Z",
+              "WhenOpened": "2025-05-30T11:16:28.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DBcontext.cs",
               "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\DB\u0027s\\DBcontext.cs",
               "RelativeDocumentMoniker": "DB\u0027s\\DBcontext.cs",
               "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\DB\u0027s\\DBcontext.cs",
               "RelativeToolTip": "DB\u0027s\\DBcontext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T10:19:20.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UtController.cs",
               "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\Controller\\UtController.cs",
               "RelativeDocumentMoniker": "Controller\\UtController.cs",
               "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\Controller\\UtController.cs",
               "RelativeToolTip": "Controller\\UtController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA9wDkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T09:46:53.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "frmGereUtilizadores.cs",
               "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\view\\frmGereUtilizadores.cs",
               "RelativeDocumentMoniker": "view\\frmGereUtilizadores.cs",
               "ToolTip": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\view\\frmGereUtilizadores.cs",
               "RelativeToolTip": "view\\frmGereUtilizadores.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T09:28:55.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmGereUtilizadores.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Luisp\\source\\repos\\Trabalho_des_aplicativos\\view\\frmGereUtilizadores.cs",
               "RelativeDocumentMoniker": "view\\frmGereUtilizadores.cs",

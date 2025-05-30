@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iTasks.CLASES;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,40 +17,34 @@ namespace iTasks
         {
             InitializeComponent();
         }
+        private UtController controller = new UtController();
 
         private void btGravarGestor_Click(object sender, EventArgs e)
         {
-            Gestor g = new Gestor
-            {
-                Nome = txtNomeGestor.Text,
-                Username = txtUsernameGestor.Text,
-                Password = txtPasswordGestor.Text,
-                Departamento = (Departamento)cbDepartamento.SelectedItem
-            };
+            utilizador.Departamento departamento = (utilizador.Departamento)cbDepartamento.SelectedItem;
 
-            var controller = new UtController();
-            
-            controller.AdicionarGestor(g);
-
-            MessageBox.Show("Dados gravados");
+            controller.AdicionarGestor(
+                txtNomeGestor.Text,
+                txtUsernameGestor.Text,
+                txtPasswordGestor.Text,
+                departamento);
+            MessageBox.Show("Gestor guardado com sucesso!");
         }
 
         private void btGravarProg_Click(object sender, EventArgs e)
         {
-            Programador p = new Programador
-            {
-                Nome = txtNomeGestor.Text,
-                Username = txtUsernameGestor.Text,
-                Password = txtPasswordGestor.Text,
-                NivelExperiencia = (NivelExp)cbNivelProg.SelectedItem,
-                GestorId = (int)cbGestorProg.SelectedValue
-            };
+            // Conversão dos itens do ComboBox para os enums e obtenção do ID do gestor selecionado
+            utilizador.NivelExp nivelExp = (utilizador.NivelExp)cbNivelProg.SelectedItem;
+            int gestorId = (int)cbGestorProg.SelectedValue; // assumindo que cmbGestor está preenchido com os gestores
 
-            var controller = new UtController();
+            controller.AdicionarProgramador(
+                txtNomeProg.Text,
+                txtUsernameProg.Text,
+                txtPasswordProg.Text,
+                nivelExp,
+                gestorId);
 
-            controller.AdicionarProgramador(p);
-
-            MessageBox.Show("Dados gravados");
+            MessageBox.Show("Programador guardado com sucesso!");
         }
     }
 }

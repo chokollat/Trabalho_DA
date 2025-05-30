@@ -12,28 +12,41 @@ namespace iTasks
 {
     class UtController
     {
-        public void AdicionarUtilizador(utilizador u)
+
+        public void AdicionarGestor(string nome, string username, string password, Departamento departamento)
         {
             using (var db = new BDContext())
             {
-                db.Utilizadores.Add(u);
+
+                var gestor = new Gestor
+                {
+                    Nome = nome,
+                    Username = username,
+                    Password = password,
+                    Departamento = departamento
+                };
+
+                db.Gestores.Add(gestor);
                 db.SaveChanges();
             }
         }
 
-        public List<utilizador> ListarUtilizadores()
-        {
-            using (var db = new BDContext())
-            {
-                return db.Utilizadores.ToList();
-            }
-        }
 
-        public void AdicionarGestor(Gestor g)
+        public void AdicionarProgramador(string nome, string username, string password, NivelExp nivelExp, int gestorId)
         {
             using (var db = new BDContext())
             {
-                db.Gestores.Add(g);
+
+                var programador = new Programador
+                {
+                    Nome = nome,
+                    Username = username,
+                    Password = password,
+                    NivelExperiencia = nivelExp,
+                    GestorId = gestorId
+                };
+
+                db.Programadores.Add(programador);
                 db.SaveChanges();
             }
         }
@@ -43,16 +56,6 @@ namespace iTasks
             using (var db = new BDContext())
             {
                 return db.Gestores.ToList();
-            }
-        }
-
-        
-        public void AdicionarProgramador(Programador p)
-        {
-            using (var db = new BDContext())
-            {
-                db.Programadores.Add(p);
-                db.SaveChanges();
             }
         }
 
