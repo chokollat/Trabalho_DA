@@ -16,7 +16,7 @@ namespace iTasks.DB_s
 {
     class BDContext : DbContext
     {
-        public DbSet<Utilizador> Utilizadores { get; set; }
+        public DbSet<utilizador> Utilizadores { get; set; }
         public DbSet<Gestor> Gestores { get; set; }
         public DbSet<Programador> Programadores { get; set; }
 

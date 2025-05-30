@@ -58,69 +58,71 @@
   <ItemGroup>
     <Compile Include="CLASES\utilizador.cs" />
     <Compile Include="DB%27s\DBcontext.cs" />
-    <Compile Include="frmConsultarTarefasConcluidas.cs">
+    <Compile Include="Controller\UtController.cs" />
+    <Compile Include="CLASES\Gestor.cs" />
+    <Compile Include="view\frmConsultarTarefasConcluidas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConsultarTarefasConcluidas.Designer.cs">
+    <Compile Include="view\frmConsultarTarefasConcluidas.Designer.cs">
       <DependentUpon>frmConsultarTarefasConcluidas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConsultaTarefasEmCurso.cs">
+    <Compile Include="view\frmConsultaTarefasEmCurso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConsultaTarefasEmCurso.Designer.cs">
+    <Compile Include="view\frmConsultaTarefasEmCurso.Designer.cs">
       <DependentUpon>frmConsultaTarefasEmCurso.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDetalhesTarefa.cs">
+    <Compile Include="view\frmDetalhesTarefa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDetalhesTarefa.Designer.cs">
+    <Compile Include="view\frmDetalhesTarefa.Designer.cs">
       <DependentUpon>frmDetalhesTarefa.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGereTiposTarefas.cs">
+    <Compile Include="view\frmGereTiposTarefas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGereTiposTarefas.Designer.cs">
+    <Compile Include="view\frmGereTiposTarefas.Designer.cs">
       <DependentUpon>frmGereTiposTarefas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmKanban.cs">
+    <Compile Include="view\frmKanban.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKanban.Designer.cs">
+    <Compile Include="view\frmKanban.Designer.cs">
       <DependentUpon>frmKanban.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGereUtilizadores.cs">
+    <Compile Include="view\frmGereUtilizadores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGereUtilizadores.Designer.cs">
+    <Compile Include="view\frmGereUtilizadores.Designer.cs">
       <DependentUpon>frmGereUtilizadores.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="view\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="view\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Programador.cs" />
+    <Compile Include="CLASES\Programador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmConsultarTarefasConcluidas.resx">
+    <EmbeddedResource Include="view\frmConsultarTarefasConcluidas.resx">
       <DependentUpon>frmConsultarTarefasConcluidas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConsultaTarefasEmCurso.resx">
+    <EmbeddedResource Include="view\frmConsultaTarefasEmCurso.resx">
       <DependentUpon>frmConsultaTarefasEmCurso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDetalhesTarefa.resx">
+    <EmbeddedResource Include="view\frmDetalhesTarefa.resx">
       <DependentUpon>frmDetalhesTarefa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGereTiposTarefas.resx">
+    <EmbeddedResource Include="view\frmGereTiposTarefas.resx">
       <DependentUpon>frmGereTiposTarefas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGereUtilizadores.resx">
+    <EmbeddedResource Include="view\frmGereUtilizadores.resx">
       <DependentUpon>frmGereUtilizadores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmKanban.resx">
+    <EmbeddedResource Include="view\frmKanban.resx">
       <DependentUpon>frmKanban.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="view\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
